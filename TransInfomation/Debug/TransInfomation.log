@@ -1,0 +1,55 @@
+﻿生成启动时间为 2014/7/27 23:11:24。
+     1>项目“F:\MyCode\TransInfomation\TransInfomation\TransInfomation.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\TransInfomation.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\TransInfomation.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AddRoad.cpp TransInfomation.cpp TransInfomationDlg.cpp
+         TransInfomationDlg.cpp
+         TransInfomation.cpp
+         AddRoad.cpp
+         正在生成代码...
+         D:\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CityGraph.cpp
+         CityGraph.cpp
+     1>f:\mycode\transinfomation\transinfomation\citygraph.cpp(28): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
+     1>f:\mycode\transinfomation\transinfomation\citygraph.cpp(85): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
+     1>f:\mycode\transinfomation\transinfomation\citygraph.cpp(220): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\mycode\transinfomation\transinfomation\chain.h(84): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
+                 f:\mycode\transinfomation\transinfomation\chain.h(75): 编译类 模板 成员函数“Chain<int> &Chain<int>::Delete(const T &)”时
+                 with
+                 [
+                     T=int
+                 ]
+                 f:\mycode\transinfomation\transinfomation\citygraph.cpp(60): 参见对正在编译的函数 模板 实例化“Chain<int> &Chain<int>::Delete(const T &)”的引用
+                 with
+                 [
+                     T=int
+                 ]
+                 f:\mycode\transinfomation\transinfomation\citygraph.cpp(28): 参见对正在编译的类 模板 实例化“Chain<int>”的引用
+     1>f:\mycode\transinfomation\transinfomation\chain.h(96): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
+     1>f:\mycode\transinfomation\transinfomation\chain.h(113): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
+                 f:\mycode\transinfomation\transinfomation\chain.h(107): 编译类 模板 成员函数“Chain<int> &Chain<int>::Insert(int,const T &)”时
+                 with
+                 [
+                     T=int
+                 ]
+                 f:\mycode\transinfomation\transinfomation\citygraph.cpp(38): 参见对正在编译的函数 模板 实例化“Chain<int> &Chain<int>::Insert(int,const T &)”的引用
+                 with
+                 [
+                     T=int
+                 ]
+     1>f:\mycode\transinfomation\transinfomation\chain.h(117): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\TransInfomation.res" TransInfomation.rc 
+       Link:
+         D:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\MyCode\TransInfomation\Debug\TransInfomation.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:D:\VS2013\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"F:\MyCode\TransInfomation\Debug\TransInfomation.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\MyCode\TransInfomation\Debug\TransInfomation.lib" /MACHINE:X86 Debug\TransInfomation.res
+         Debug\AddRoad.obj
+         Debug\CityGraph.obj
+         Debug\stdafx.obj
+         Debug\TransInfomation.obj
+         Debug\TransInfomationDlg.obj
+         TransInfomation.vcxproj -> F:\MyCode\TransInfomation\Debug\TransInfomation.exe
+     1>已完成生成项目“F:\MyCode\TransInfomation\TransInfomation\TransInfomation.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:42.31
